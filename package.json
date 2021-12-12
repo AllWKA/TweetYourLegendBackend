@@ -1,0 +1,27 @@
+{
+  "name": "tweetyourlegendbackend",
+  "version": "1.0.0",
+  "description": "tweets threads about the story you build with the TweetYourLegend App",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "tscInit": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllWKA/TweetYourLegendBackend.git"
+  },
+  "author": "Allwka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllWKA/TweetYourLegendBackend/issues"
+  },
+  "homepage": "https://github.com/AllWKA/TweetYourLegendBackend#readme",
+  "dependencies": {
+    "twitter-api-v2": "1.7.2"
+  },
+  "devDependencies": {
+    "tslint": "6.1.3",
+    "typescript": "4.5.3"
+  }
+}
