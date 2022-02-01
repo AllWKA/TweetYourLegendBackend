@@ -4,8 +4,7 @@
   "description": "tweets threads about the story you build with the TweetYourLegend App",
   "main": "index.js",
   "scripts": {
-    "serve": "node index.js",
-    "tscInit": "tsc --init"
+    "serve": "tsc && node index.js"
   },
   "repository": {
     "type": "git",
